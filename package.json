@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "redis": "^4.7.0"
+  },
+  "type": "module",
+  "name": "0xhacking-services",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ENVIRONMENT=dev node app.js",
+    "prod": "ENVIRONMENT=prod pm2 start app.js --name 0xcampus.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
