@@ -33,7 +33,7 @@ jobs:
 
       # Step 4: Build the application
       - name: start the app
-        run: npm run start
+        run: npm run prod
 
    
 

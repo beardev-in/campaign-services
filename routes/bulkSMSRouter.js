@@ -5,7 +5,7 @@ import os from "os";
 import { Worker } from "worker_threads";
 import path from "path";
 import { fileURLToPath } from "url";
-import getAccessToken from "../utils/gSheet.js";
+// import getAccessToken from "../utils/gSheet.js";
 import redisClient from "../utils/redis.js";
 import axios from "axios";
 
