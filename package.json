@@ -13,7 +13,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "ENVIRONMENT=dev node app.js",
-    "prod": "ENVIRONMENT=prod node app.js"
+    "prod": "ENVIRONMENT=prod node start app.js --name services"
   },
   "keywords": [],
   "author": "",
