@@ -11,6 +11,16 @@ import axios from "axios";
 
 const router = express.Router();
 
+router.get("/hey", async (req, res) => {
+  try {
+
+    res.status(200).json({ success: { msg: "Jobs completed!" } })
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: { msg: "The server is currently experiencing difficulties. Please try again.", path: "internalerror" } })
+  }
+})
+
 //fire reminders to all hackers who haven't finished inputted checkpoint
 router.post("/checkpoint-reminder", async (req, res) => {
   try {

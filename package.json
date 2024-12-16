@@ -13,7 +13,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "ENVIRONMENT=dev node app.js",
-    "prod": "ENVIRONMENT=prod pm2 start app.js --name 0xcampus.com"
+    "prod": "ENVIRONMENT=prod node app.js"
   },
   "keywords": [],
   "author": "",
